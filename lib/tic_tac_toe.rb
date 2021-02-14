@@ -48,10 +48,11 @@ class TicTacToe
         if valid_move?(index)
             token = current_player
             move(index, token)
-            display_board
+            
         else
             turn
         end
+        display_board
     
 
         def won?
